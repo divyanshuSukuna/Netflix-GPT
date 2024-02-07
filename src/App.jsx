@@ -1,11 +1,7 @@
+import Body from "./components/Body";
+
 function App() {
-  return (
-    <>
-      <div className="text-2xl text-center font-bold">
-        <h1>Hello World</h1>
-      </div>
-    </>
-  );
+  return <Body />;
 }
 
 export default App;
